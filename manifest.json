@@ -1,0 +1,21 @@
+{
+    "name": "Print Quiz",
+    "description": "prints only quiz questions and answers!",
+    "version": "1.0",
+    "author": "Afasha",
+    "host_permissions": [
+      "*://*.nurseslabs.com/"
+    ],
+
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["main.js"],
+      "matches": [ "https://nurseslabs.com/*"]
+    }],
+    "manifest_version": 3,
+    "icons": {
+      "48": "/assets/icons/48.png",
+      "128": "/assets/icons/128.png"
+    }
+  }
+  

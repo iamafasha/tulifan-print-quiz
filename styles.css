@@ -1,0 +1,87 @@
+/* on print */
+@media print {
+ 
+.gb-container, .inside-navigation , #mobile-header{
+    display: none !important;
+}
+
+.inside-article header{
+    display: none !important;
+}
+
+.inside-article .featured-image  {
+    display: none !important;
+}
+
+body>* {
+    display:  none !important;
+}
+
+body>.site {
+    display:  block !important;
+}
+
+body>.site>.site-content {
+    display:  block !important;
+}
+
+body>.site>.site-content>.content-area{
+    display:  block !important;
+}
+
+body>.site>.site-content>.content-area>main{
+    display:  block !important;
+}
+
+body .site .site-content .content-area main .article {
+    display:  block !important;
+}
+
+body .site .site-content .content-area main .article .inside-article{
+    display: block !important;
+}
+
+.entry-content>*{
+   display:  none !important;
+}
+
+.entry-content .split-container {
+    display:  block !important;
+}
+
+.split-container >h3 {
+    display: none !important;
+}
+
+.learndash .learndash-wrapper .wpProQuiz_content >*{
+    display: none !important;
+}
+
+.learndash .learndash-wrapper .wpProQuiz_content .wpProQuiz_quiz{
+    display: block !important;
+}
+.comments-area{
+    display: none !important;
+}
+
+.widget-area{
+    display: none !important;
+}
+
+.site-footer {
+    display: none !important;
+}
+
+    .entry-meta{
+        display: none !important;
+    }
+
+    .wpProQuiz_question_page{
+        display: none !important;
+    }
+
+    input[type="button"]{
+        display: none !important;
+    }
+}
+
